@@ -1,0 +1,19 @@
+h1 {
+    font-family: 'Zilla Slab Highlight', cursive;
+   text-align: center;
+   background-color: teal;
+   position: relative;
+  top:-10px;
+  margin: -1px -10px 0 -10px;
+  }
+
+  img {
+      border: 5px pink solid;
+      border-radius: 50%;
+      width: 150px;
+  }
+  
+  div {
+      background-color: aquamarine;
+  }
+  

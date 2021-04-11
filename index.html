@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat-Phtot-App</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1>Cat Photo App</h1>
+    <main>
+        
+        <img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat image">
+        <p>Click here to view more <a href="https://www.google.com/search?q=cat+photos&sxsrf=ALeKk03B60Up-ULtgpZStZBuoJtKqJBV7A:1618141047174&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiPrMCSjfbvAhWf8XMBHcjfBKMQ_AUoAXoECAEQAw&biw=960&bih=972">cat photos</a></p>
+   
+        <!-- About cat likes and dislikes and a div tag for applying the background color-->
+    <div>
+        <p>Things cats love:</p>
+        <ul type="circle">
+            <li>Cat nip</li>
+            <li>Laser pointers</li>
+            <li>Lasagna</li>
+        </ul>
+        <p>Things cats hate:</p>
+        <ol>
+            <li>Flea treatment</li>
+            <li>Thunder</li>
+            <li>Other cats</li>
+        </ol>
+    </div>
+
+        <!-- Form Starts fo.rm here-->
+        <form>
+            <fieldset>
+                <legend>Which type of cat photo your submiitng</legend>
+                <p>Is it indoor or outdoor cat?</p>
+                <label for="indoor">
+                    <input type="radio" id="indoor" name="indoor-outdoor" value="indoor">Indoor
+                </label><br>
+                <label for="outdoor">
+                    <input type="radio" id="outdoor" name="indoor-outdoor" value="outdoor">Outdoor
+                </label><br>
+                <p>What type of cat it is</p>
+                <label for="love">
+                    <input type="checkbox" id="love" name="typeOfCat" value="love">Loving
+                </label><br>
+                <label  for="lazy">
+                    <input type="checkbox" id="lazy" name="typeOfCat" value="lazy">lazy
+                </label><br>
+                <label for="cute">
+                    <input type="checkbox" id="cute" name="typeOfCat" value="cute">Cute
+                </label><br>
+                <label for="energy">
+                    <input type="checkbox" id="energy" name="typeOfCat" value="energetic">Energetic
+                </label><br>
+                <input type="url" placeholder="Cat photo URL" required><br>
+                <button type="submit">Submit</button>
+            </fieldset>
+
+        </form>
+
+    </main>
+    
+    
+    
+</body>
+</html>
